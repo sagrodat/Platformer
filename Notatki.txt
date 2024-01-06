@@ -1,0 +1,14 @@
+XXX Blok ma jedna texturke o szerokosci calego ekranu
+XXX potem robimy textury o wielkosci odpowiadajacej danemu poziomiowi trudnosci
+
+XXX blok tworzy sie o losowej szerokosci i w lososym punkcie ale tak zeby na niego mozna bylo
+wskoczyc
+
+wraz z zmniejszaniem sie y playera zwieksza sie y bloku
+
+
+
+
+
+
+

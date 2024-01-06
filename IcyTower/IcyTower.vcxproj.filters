@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Player">
+      <UniqueIdentifier>{f81bc5ce-5130-492b-9b52-a567bbe11f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Blocks">
+      <UniqueIdentifier>{901587f0-4f92-4932-a036-a4be614c1321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Blocks">
+      <UniqueIdentifier>{fb5326ee-291e-4ec8-9d59-995fb371b253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Game">
+      <UniqueIdentifier>{486a0fa2-4e11-4ede-93da-d0ba03d82597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game">
+      <UniqueIdentifier>{496a5595-88b1-41ac-b12c-13177db2e747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki źródłowe\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Moving.cpp">
+      <Filter>Pliki źródłowe\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GettersSetters.cpp">
+      <Filter>Pliki źródłowe\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Pliki źródłowe\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Blocks.cpp">
+      <Filter>Pliki źródłowe\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDifficulty.cpp">
+      <Filter>Pliki źródłowe\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLObjects.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Blocks.h">
+      <Filter>Pliki nagłówkowe\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Pliki nagłówkowe\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDifficulty.h">
+      <Filter>Pliki nagłówkowe\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
