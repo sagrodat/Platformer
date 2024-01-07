@@ -134,6 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Background.cpp" />
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="Blocks.cpp" />
     <ClCompile Include="drawing.cpp" />
@@ -146,9 +147,11 @@
     </ClCompile>
     <ClCompile Include="Moving.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Score.cpp" />
     <ClCompile Include="Textures.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Background.h" />
     <ClInclude Include="Blocks.h" />
     <ClInclude Include="Block.h" />
     <ClInclude Include="Constants.h" />
@@ -156,6 +159,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameDifficulty.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="ScoreNumbers.h" />
     <ClInclude Include="SFMLObjects.h" />
     <ClInclude Include="Textures.h" />
   </ItemGroup>

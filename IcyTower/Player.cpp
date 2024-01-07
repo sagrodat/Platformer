@@ -3,8 +3,8 @@
 
 Player::Player()
 {
+	sprite.setTexture(textures.playerTexture);
 	setStartPosition();
-	loadTextureAndSetSprite();
 }
 
 void Player::setStartPosition()
@@ -12,11 +12,6 @@ void Player::setStartPosition()
 	setPos(0, WINDOW_HEIGHT - getPlayerSize().y);
 }
 
-void Player::loadTextureAndSetSprite()
-{
-	texture.loadFromFile(texturePath);
-	sprite.setTexture(texture);
-}
 
 int Player::isRightOverBlock()
 {
@@ -53,7 +48,7 @@ bool Player::isFallingDown()
 }
 void Player::setOnBlock(int blockId)
 {
-	this->setPos(getPos().x, blocks.getBlocks()->at(blockId).getPos().y - getPlayerSize().y);
+	player.speedY = game.getSpeed();
 	terminateJump();
 }
 

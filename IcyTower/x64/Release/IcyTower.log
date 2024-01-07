@@ -1,28 +1,8 @@
-﻿  Player.cpp
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.h(17,30): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.cpp(12,26): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-          with
-          [
-              T=int
-          ]
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.cpp(27,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
-          with
-          [
-              T=float
-          ]
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.cpp(28,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
-          with
-          [
-              T=float
-          ]
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.cpp(41,37): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
-          with
-          [
-              T=float
-          ]
+﻿  main.cpp
+E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.h(16,30): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
   Trwa generowanie kodu
-  14 of 227 functions ( 6.2%) were compiled, the rest were copied from previous compilation.
+  1 of 296 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    6 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
   IcyTower.vcxproj -> E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\x64\Release\IcyTower.exe

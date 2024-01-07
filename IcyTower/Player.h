@@ -4,12 +4,11 @@
 #include "SFMLObjects.h"
 #include <iostream>
 #include "Blocks.h"
+#include "Textures.h"
 class Player {
 private :
 
-	sf::Texture texture;
 	sf::Sprite sprite;
-	std::string texturePath = "E:\\INFORMATYKA\\PROGRAMOWANIE\\PROJEKTY\\W trakcie\\IcyTower\\assets\\guy.png";
 	const int playerWidth = 128;
 	const int playerHeight = 128;
 	
@@ -25,10 +24,7 @@ private :
 
 	bool hasStartedGame = false;
 
-	
-
 	void setStartPosition();
-	void loadTextureAndSetSprite();
 
 public :
 

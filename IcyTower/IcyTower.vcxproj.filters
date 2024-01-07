@@ -60,6 +60,12 @@
     <ClCompile Include="Game.cpp">
       <Filter>Pliki źródłowe\Game</Filter>
     </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -88,6 +94,12 @@
     </ClInclude>
     <ClInclude Include="GameDifficulty.h">
       <Filter>Pliki nagłówkowe\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreNumbers.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,16 +7,20 @@
 #include "Block.h"
 #include "Game.h"
 #include "GameDifficulty.h"
+#include "Background.h"
+#include "ScoreNumbers.h"
 
 int main()
 {
-    //view score on screen
-    // add background
-    // add legit textures
+    //dont stutter when moving on block DONE
+    //view score on screen DONE
+    // add background DONE 
+    // player texture
+    // block texture
     // add game over
     // add reset
 
-    window.setFramerateLimit(60);
+    window.setFramerateLimit(144);
     generalClock.restart();
     gameDurationClock.restart();
 
@@ -58,15 +62,19 @@ int main()
         }
            
 
-        blocks.updatePosition();
         player.updatePosition();
         player.updateScore();
         player.updateNumberOfBlocksBasedOnPlayerPosition();
+        blocks.updatePosition();
         deltaTime = generalClock.restart();
-        if(game.hasGameStarted())
-            gameDifficulty.increase();
 
-        std::cout << player.score << std::endl;
+        if (game.hasGameStarted())
+        {
+            gameDifficulty.increase();
+            background.updateBackground();
+        }
+
+        
 
         window.clear();
         myDraw();
