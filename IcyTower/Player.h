@@ -9,13 +9,13 @@ class Player {
 private :
 
 	sf::Sprite sprite;
-	const int playerWidth = 128;
-	const int playerHeight = 128;
+	const int playerWidth = 100;
+	const int playerHeight = 165;
 	
 	float speedX = 0;
 	float speedY = game.getSpeed();
-	float topSpeedX = 1000;
-	float accelerationX = 5000;
+	float topSpeedX = 850;
+	float accelerationX = 4000;
 	float accelerationY = 3000;
 
 	float jumpStartSpeed = 1250;
@@ -49,6 +49,10 @@ public :
 	void terminateJump();
 	void updateNumberOfBlocksBasedOnPlayerPosition();
 	void updateScore();
+
+	void setJumpingTexture();
+	void setRestingTexture();
+	void setPreparingToJumpTexture();
 
 	//collision
 	int isRightOverBlock();

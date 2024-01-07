@@ -16,7 +16,7 @@ public :
 	std::vector<sf::Sprite> * backgroundSprites;
 	int backgroundHeight = WINDOW_HEIGHT;
 	int backgroundsAhead = 2;
-	int backgroundsBehind = 2;
+	int backgroundsBehind = 3;
 	int nextBackgroundY = 0;
 
 };

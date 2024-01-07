@@ -3,7 +3,7 @@
 
 Player::Player()
 {
-	sprite.setTexture(textures.playerTexture);
+	setRestingTexture();
 	setStartPosition();
 }
 
@@ -12,6 +12,19 @@ void Player::setStartPosition()
 	setPos(0, WINDOW_HEIGHT - getPlayerSize().y);
 }
 
+
+void Player::setJumpingTexture()
+{
+	sprite.setTexture(textures.playerJumpingTexture);
+}
+void Player::setRestingTexture()
+{
+	sprite.setTexture(textures.playerRestingTexture);
+}
+void Player::setPreparingToJumpTexture()
+{
+	sprite.setTexture(textures.playerPreparingToJumpTexture);
+}
 
 int Player::isRightOverBlock()
 {

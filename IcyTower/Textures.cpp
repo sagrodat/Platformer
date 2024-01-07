@@ -4,6 +4,10 @@ Textures::Textures()
 {
 	blockTexture.loadFromFile(blockTexturePath);
 	scoreTexture.loadFromFile(scoreTexturePath);
-	playerTexture.loadFromFile(playerTexturePath);
+
+	playerRestingTexture.loadFromFile(playerRestingTexturePath);
+	playerJumpingTexture.loadFromFile(playerJumpingTexturePath);
+	playerPreparingToJumpTexture.loadFromFile(playerPreparingToJumpTexturePath);
+
 	backgroundTexture.loadFromFile(backgroundTexturePath);
 }

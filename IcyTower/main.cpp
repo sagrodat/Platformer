@@ -16,11 +16,11 @@ int main()
     //view score on screen DONE
     // add background DONE 
     // player texture
-    // block texture
+    // block texture DONE
     // add game over
     // add reset
 
-    window.setFramerateLimit(144);
+    window.setFramerateLimit(30);
     generalClock.restart();
     gameDurationClock.restart();
 
@@ -47,6 +47,7 @@ int main()
                 case sf::Keyboard::D:
                     player.isMovingRight = true;
                     break;
+                    
                 }
             }
         }
@@ -58,8 +59,11 @@ int main()
         {
             if (!game.hasGameStarted())
                 game.startGame();
+
+
             player.initiateJump();
         }
+        
            
 
         player.updatePosition();

@@ -52,6 +52,7 @@ void Player::initiateJump()
 {
 	if (!isJumping && speedY == game.getSpeed())
 	{
+		setJumpingTexture();
 		isJumping = true;
 		speedY = -jumpStartSpeed;
 	}
@@ -59,8 +60,10 @@ void Player::initiateJump()
 
 void Player::terminateJump()
 {
+	setRestingTexture();
 	speedY = game.getSpeed();
 	isJumping = false;
+
 }
 
 void Player::continueJump()
