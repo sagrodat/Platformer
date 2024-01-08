@@ -43,7 +43,7 @@ int Player::isRightOverBlock()
 		if (playersFeetY < b.getPos().y  || playersFeetY > b.getPos().y + b.getHeight())
 			continue;
 
-		if (playersFeetXCenter < b.getPos().x || playersFeetXCenter > b.getPos().x + b.getWidth())
+		if (playersFeetXCenter + (player.getPlayerSize().x / 2) < b.getPos().x || playersFeetXCenter - (player.getPlayerSize().x / 2)> b.getPos().x + b.getWidth())
 			continue;
 
 		int distanceBetweenPlayerAndBlock = b.getPos().y - (this->getPos().y + getPlayerSize().y);

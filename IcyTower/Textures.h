@@ -18,5 +18,8 @@ public :
 
 	sf::Texture backgroundTexture;
 	std::string backgroundTexturePath = "E:\\INFORMATYKA\\PROGRAMOWANIE\\PROJEKTY\\W trakcie\\IcyTower\\assets\\background.png";
+
+	sf::Texture endGameTexture;
+	std::string endGameTexturePath = "E:\\INFORMATYKA\\PROGRAMOWANIE\\PROJEKTY\\W trakcie\\IcyTower\\assets\\endgame.png";
 };
 inline Textures textures;

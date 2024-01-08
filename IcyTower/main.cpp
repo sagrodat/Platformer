@@ -12,15 +12,11 @@
 
 int main()
 {
-    //dont stutter when moving on block DONE
-    //view score on screen DONE
-    // add background DONE 
     // player texture
-    // block texture DONE
     // add game over
     // add reset
 
-    window.setFramerateLimit(30);
+    window.setFramerateLimit(144);
     generalClock.restart();
     gameDurationClock.restart();
 
@@ -60,7 +56,6 @@ int main()
             if (!game.hasGameStarted())
                 game.startGame();
 
-
             player.initiateJump();
         }
         
@@ -71,6 +66,8 @@ int main()
         player.updateNumberOfBlocksBasedOnPlayerPosition();
         blocks.updatePosition();
         deltaTime = generalClock.restart();
+        if (player.getPos().y > WINDOW_HEIGHT)
+            game.endGame();
 
         if (game.hasGameStarted())
         {

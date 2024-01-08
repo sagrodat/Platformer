@@ -10,4 +10,5 @@ Textures::Textures()
 	playerPreparingToJumpTexture.loadFromFile(playerPreparingToJumpTexturePath);
 
 	backgroundTexture.loadFromFile(backgroundTexturePath);
+	endGameTexture.loadFromFile(endGameTexturePath);
 }
