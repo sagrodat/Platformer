@@ -1,14 +1,14 @@
 #include "drawing.h"
-
 void myDraw()
 {
 	for (sf::Sprite background : *background.getBackgroundSprites())
 		window.draw(background);
 
-	window.draw(player.getSprite());
 
 	for (Block block : *blocks.getBlocks())
 		window.draw(block.getSprite());
+
+	window.draw(player.getSprite());
 
 
 	drawScoreNumber(player.score);

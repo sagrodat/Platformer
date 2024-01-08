@@ -50,7 +50,7 @@ bool Player::hasPlayerJumped()
 
 void Player::initiateJump()
 {
-	if (!isJumping && speedY == game.getSpeed())
+	if (!isJumping && speedY == gameInfo.getSpeed())
 	{
 		setJumpingTexture();
 		isJumping = true;
@@ -61,7 +61,7 @@ void Player::initiateJump()
 void Player::terminateJump()
 {
 	setRestingTexture();
-	speedY = game.getSpeed();
+	speedY = gameInfo.getSpeed();
 	isJumping = false;
 
 }

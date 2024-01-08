@@ -5,18 +5,15 @@
 #include "SFMLObjects.h"
 #include "drawing.h"
 #include "Block.h"
-#include "Game.h"
+#include "GameInfo.h"
 #include "GameDifficulty.h"
 #include "Background.h"
 #include "ScoreNumbers.h"
 
 int main()
 {
-    // player texture
-    // add game over
-    // add reset
+    std::cout << " test" << std::endl;
 
-    window.setFramerateLimit(144);
     generalClock.restart();
     gameDurationClock.restart();
 
@@ -53,8 +50,9 @@ int main()
             player.increaseSpeedRight();
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
         {
-            if (!game.hasGameStarted())
-                game.startGame();
+            if (!gameInfo.hasGameStarted())
+                gameInfo.startGame();
+            
 
             player.initiateJump();
         }
@@ -67,9 +65,9 @@ int main()
         blocks.updatePosition();
         deltaTime = generalClock.restart();
         if (player.getPos().y > WINDOW_HEIGHT)
-            game.endGame();
+            gameInfo.endGame();
 
-        if (game.hasGameStarted())
+        if (gameInfo.hasGameStarted())
         {
             gameDifficulty.increase();
             background.updateBackground();

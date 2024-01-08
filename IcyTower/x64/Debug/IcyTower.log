@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.h(16,34): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+AssetsPath.obj : warning LNK4075: zignorowano opcję „/EDITANDCONTINUE” z powodu określenia opcji „/INCREMENTAL:NO”
+  IcyTower.vcxproj -> E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\x64\Debug\IcyTower.exe

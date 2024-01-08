@@ -11,7 +11,7 @@ void GameDifficulty::increase()
 			Block::minSpriteWidth -= 5;
 		if (blocks.gapBetweenLevels < blocks.maxGapBetweenLevels)
 			blocks.gapBetweenLevels += 5;
-		if (game.blocksSpeed < game.maxBlocksSpeed)
-			game.blocksSpeed += 5;
+		if (gameInfo.blocksSpeed < gameInfo.maxBlocksSpeed)
+			gameInfo.blocksSpeed += 5;
 	}
 }

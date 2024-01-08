@@ -2,7 +2,7 @@
 #include "Constants.h"
 #include <chrono>
 #include "Textures.h"
-#include "Game.h"
+#include "GameInfo.h"
 #include <iostream>
 #include "SFMLObjects.h"
 

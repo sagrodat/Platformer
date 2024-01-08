@@ -1,18 +1,7 @@
-﻿  Game.cpp
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Game.cpp(10,35): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Game.cpp(24,21): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Game.cpp(30,105): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
-          with
-          [
-              T=float
-          ]
-E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Game.cpp(30,61): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
-          with
-          [
-              T=float
-          ]
+﻿  main.cpp
+E:\INFORMATYKA\PROGRAMOWANIE\PROJEKTY\W trakcie\IcyTower\IcyTower\Player.h(16,34): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
   Trwa generowanie kodu
-  3 of 312 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+  0 of 329 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu

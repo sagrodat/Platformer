@@ -53,7 +53,7 @@ void Background::updatePositions()
 	for (int i = 0; i < backgroundSprites->size(); i++)
 	{
 		sf::Vector2f curPos = backgroundSprites->at(i).getPosition();
-		backgroundSprites->at(i).setPosition(curPos.x, curPos.y + game.getSpeed() * deltaTime.asSeconds());
+		backgroundSprites->at(i).setPosition(curPos.x, curPos.y + gameInfo.getSpeed() * deltaTime.asSeconds());
 	}
 	
 }

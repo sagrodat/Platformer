@@ -61,7 +61,7 @@ bool Player::isFallingDown()
 }
 void Player::setOnBlock(int blockId)
 {
-	player.speedY = game.getSpeed();
+	player.speedY = gameInfo.getSpeed();
 	terminateJump();
 }
 
@@ -83,9 +83,9 @@ void Player::updatePosition()
 
 
 	sf::Vector2f curPos = getPos();
-	if (!game.hasGameStarted())
+	if (!gameInfo.hasGameStarted())
 		setPos(curPos.x + speedX * deltaTime.asSeconds(),curPos.y );
-	if(game.hasGameStarted())
+	if(gameInfo.hasGameStarted())
 		setPos(curPos.x + speedX * deltaTime.asSeconds(), curPos.y + speedY * deltaTime.asSeconds());
 }
 

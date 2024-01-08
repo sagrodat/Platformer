@@ -28,6 +28,12 @@
     <Filter Include="Pliki źródłowe\Game">
       <UniqueIdentifier>{496a5595-88b1-41ac-b12c-13177db2e747}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Assets">
+      <UniqueIdentifier>{c865e53e-71b7-4dc1-bbb6-4cd76b13c7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Assets">
+      <UniqueIdentifier>{525bd669-ec0a-4ad7-81a5-4feb820e7872}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -51,20 +57,23 @@
     <ClCompile Include="Blocks.cpp">
       <Filter>Pliki źródłowe\Blocks</Filter>
     </ClCompile>
-    <ClCompile Include="Textures.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="GameDifficulty.cpp">
       <Filter>Pliki źródłowe\Game</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="GameInfo.cpp">
       <Filter>Pliki źródłowe\Game</Filter>
     </ClCompile>
-    <ClCompile Include="Score.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="AssetsPath.cpp">
+      <Filter>Pliki źródłowe\Assets</Filter>
     </ClCompile>
     <ClCompile Include="Background.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Pliki źródłowe\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Pliki źródłowe\Assets</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -86,20 +95,23 @@
     <ClInclude Include="Block.h">
       <Filter>Pliki nagłówkowe\Blocks</Filter>
     </ClInclude>
-    <ClInclude Include="Textures.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Pliki nagłówkowe\Game</Filter>
-    </ClInclude>
     <ClInclude Include="GameDifficulty.h">
       <Filter>Pliki nagłówkowe\Game</Filter>
     </ClInclude>
-    <ClInclude Include="ScoreNumbers.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Pliki nagłówkowe\Game</Filter>
     </ClInclude>
     <ClInclude Include="Background.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreNumbers.h">
+      <Filter>Pliki nagłówkowe\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Pliki nagłówkowe\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetsPath.h">
+      <Filter>Pliki nagłówkowe\Assets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

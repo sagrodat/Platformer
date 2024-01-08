@@ -23,7 +23,7 @@ void Blocks::createNextBlock()
 
 void Blocks::updatePosition()
 {
-	if (!game.hasGameStarted())
+	if (!gameInfo.hasGameStarted())
 		return;
 
 	std::vector<Block> * bs = blocks.getBlocks();
@@ -32,7 +32,7 @@ void Blocks::updatePosition()
 	{
 		//float pixelsMoved = game.getSpeed() * deltaTime.asSeconds();
 		//game.setPixelsMovedInFrame(pixelsMoved);
-		bs->at(i).setPos(bs->at(i).getPos().x, bs->at(i).getPos().y + game.getSpeed() * deltaTime.asSeconds());
+		bs->at(i).setPos(bs->at(i).getPos().x, bs->at(i).getPos().y + gameInfo.getSpeed() * deltaTime.asSeconds());
 	}
 	std::cout << std::endl;
 

@@ -13,7 +13,7 @@ private :
 	const int playerHeight = 165;
 	
 	float speedX = 0;
-	float speedY = game.getSpeed();
+	float speedY = gameInfo.getSpeed();
 	float topSpeedX = 850;
 	float accelerationX = 4000;
 	float accelerationY = 3000;

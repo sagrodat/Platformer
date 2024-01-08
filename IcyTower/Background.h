@@ -2,7 +2,7 @@
 #include "SFML/Graphics.hpp"
 #include "Textures.h"
 #include "SFMLObjects.h"
-#include "Game.h"
+#include "GameInfo.h"
 #include "Player.h"
 class Background
 {
