@@ -11,13 +11,16 @@ This repository contains a small 2D platformer inspired by the classic “Icy To
 - **Score Display**: Score is shown using a custom number sprite system.
 
 ## Getting Started
-
+### Self-compiling
 1. **Clone** this repository.
 2. **Install SFML** (version 2.5+ recommended).
 3. **Open** the solution (`IcyTower.sln`) in Visual Studio (or your preferred IDE).
 4. **Configure** the project to link against SFML libraries.
 5. **Build & Run** the project. Ensure the `assets` folder is in the same directory as the executable.
-
+### Ready-to-go
+1. **Clone** this repository.
+2. Go to the **ForDistribution** catalog and launch the .exe file.
+   
 ## Controls (Example)
 
 - **Left/Right Arrow Keys**: Move the player.
